@@ -7,7 +7,7 @@ Due to a recent oversight by another developer when merging to `master`, the car
 You've been asked to:
 - [ ] Find the broken click handler and plug it back in.
 
-IN addition to fixing this bug, for the preview to be closer to what cards look like in real life you've been asked to:
+In addition to fixing this bug, for the preview to be closer to what cards look like in real life you've been asked to:
 - [ ] Split the credit card number in groups of 4 numbers for display only.
 - [ ] Fix logo sizes to make the preview height consistent across providers.
 - [ ] Remove the "Cardholder's name" title from the preview. Displaying only the actual cardholder's name.
