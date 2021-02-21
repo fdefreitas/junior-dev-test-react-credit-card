@@ -16,15 +16,18 @@ export const CreditCardList = ({onCardClicked}) => {
 		getCardsFromApi();
 	}, []);
 
-	return (
-		<div>
-			<h4>Recently registered cards</h4>
-			<ul className='card-list'>
-				{cardList.map((card) =>
-					<li key={card.cardNumber} onClick={() => onCardClicked(card)}>
-						<CreditCardListItem card={card}/>
-					</li>
-				)}
-			</ul>
-		</div>);
+	const cardClickedHandler = (card) => {
+		onCardClicked(card)
+	};
+
+	return (<div>
+		<h4>Recently registered cards</h4>
+		<ul className='card-list'>
+			{cardList.map((card) =>
+				<li key={card.cardNumber} onClick={() => {}}>
+					<CreditCardListItem card={card}/>
+				</li>
+			)}
+		</ul>
+	</div>);
 };
