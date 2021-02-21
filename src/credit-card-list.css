@@ -1,0 +1,16 @@
+.card-list {
+	padding: 0;
+	list-style: none;
+	/* background: #1d2d50; */
+	background: #01579B;
+	color: white;
+	border-radius: 8px;
+}
+
+.card-list li:not(:last-child) {
+	border-bottom: 1px solid #0277BD;
+}
+
+.card-list li:hover {
+	background-color: #0091EA;
+}

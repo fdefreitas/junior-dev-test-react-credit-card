@@ -1,0 +1,14 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 32rem 32rem;
+}
+
+.list-container {
+	flex: 1;
+	margin-right: 3rem;
+}
+
+.card-container {
+	display: flex;
+	align-items: center;
+}
